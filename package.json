@@ -1,0 +1,31 @@
+{
+  "name": "lightweight-eink-server",
+  "version": "1.0.0",
+  "description": "Generate screenshots of various webUI for use by Eink screen",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlephFive/Lightweight-Eink-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlephFive/Lightweight-Eink-Server/issues"
+  },
+  "homepage": "https://github.com/AlephFive/Lightweight-Eink-Server#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}

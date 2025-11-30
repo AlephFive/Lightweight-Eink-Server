@@ -4,7 +4,8 @@
   "description": "Generate screenshots of various webUI for use by Eink screen",
   "main": "index.js",
   "scripts": {
-    "start": "tsx src/server.ts"
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "sharp": "^0.34.5"
   }
 }
